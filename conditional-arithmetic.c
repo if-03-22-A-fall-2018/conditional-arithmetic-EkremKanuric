@@ -1,6 +1,7 @@
 #include "conditional-arithmetic.h"
 int main(int argc, char const *argv[]) {
   int x = GetOperation();
+  GoThrough(x);
   return 0;
 }
 
@@ -17,3 +18,4 @@ int GetOperation(){
     }
     return numb;
 }
+void GoThrough(int x);
