@@ -43,7 +43,7 @@ void GetNumbers(int x){
 
 
   if (add1_multyply2 == 1) {
-    product_or_sum -=1;
+    product_or_sum--;
   }
   printf("The result is %d\n", product_or_sum);
 }
